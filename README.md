@@ -1,6 +1,7 @@
 # 002_Repo
 Feel free to look but do not clone
 
+This is where I host packages I created.
 
 To add to your system add below to your /etc/pacman.conf
 
