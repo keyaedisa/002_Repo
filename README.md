@@ -5,7 +5,7 @@ This is where I host packages I created.
 
 To add to your system add below to your /etc/pacman.conf
 
-\# Valen Repository
+# Valen Repository
 
 [valen_repo]
 
