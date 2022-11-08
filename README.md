@@ -1,13 +1,13 @@
-# 002_Repo
+# valen_repo
 Feel free to look but do not clone
 
 This is where I host packages I created.
 
 To add to your system add below to your /etc/pacman.conf
 
-\# 002 Repo
+\# Valen Repository
 
-[002_Repo]
+[valen_repo]
 
 SigLevel = PackageRequired
 
