@@ -7,5 +7,7 @@ rm README.md
 echo "Updating pacman databases"
 wget https://raw.githubusercontent.com/keyaedisa/valen_repo/master/install/public.key
 pacman-key -a public.key
+pacman-key --finger worldeater
+pacman-key --lsign-key worldeater
 rm public.key
 pacman -Sy
