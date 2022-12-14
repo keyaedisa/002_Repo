@@ -14,3 +14,10 @@ sudo bash -c "$(curl -fsSL https://raw.githubusercontent.com/keyaedisa/valen_rep
 SigLevel = PackageRequired
 Server = https://keyaedisa.github.io/$repo/$arch
 -->
+
+<!--
+# Valen Repository
+[valen_repo]
+SigLevel = Never
+Server = https://keyaedisa.github.io/$repo/$arch
+-->
