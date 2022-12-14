@@ -1,0 +1,12 @@
+#!/bin/bash
+
+set tabstop=4
+
+t='    '
+
+echo "kum"
+printf '    kum.\n'
+printf '    kum.\n'
+printf '    kum.\n'
+echo "kum"
+echo "    kum"
