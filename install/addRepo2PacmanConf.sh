@@ -2,7 +2,7 @@
 
 echo "Automatically adding Valen Repo to your /etc/pacman.conf"
 wget https://raw.githubusercontent.com/keyaedisa/valen_repo/master/README.md
-sed -n '11,14p' README.md >> /etc/pacman.conf
+sed -n '12,15p' README.md >> /etc/pacman.conf
 rm README.md
 echo "Updating pacman databases"
 wget https://raw.githubusercontent.com/keyaedisa/valen_repo/master/install/public.key
