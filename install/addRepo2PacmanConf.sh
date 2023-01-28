@@ -5,9 +5,9 @@ wget https://raw.githubusercontent.com/keyaedisa/valen_repo/master/README.md
 sed -n '12,15p' README.md >> /etc/pacman.conf
 rm README.md
 echo "Updating pacman databases"
-wget https://raw.githubusercontent.com/keyaedisa/valen_repo/master/install/public.key
-pacman-key -a public.key
-pacman-key --finger worldeater
-pacman-key --lsign-key worldeater
-rm public.key
+wget https://raw.githubusercontent.com/keyaedisa/valen_repo/master/install/repo-Arch-public-key.gpg
+pacman-key -a repo-Arch-public-key.gpg
+pacman-key --finger w0rldEater
+pacman-key --lsign-key w0rldEater
+rm repo-Arch-public-key.gpg
 pacman -Sy
