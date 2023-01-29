@@ -1,5 +1,6 @@
 #!/bin/bash
 
+cd ~/
 
 if [[ "$1" == "dev" ]]; then
 	echo "Automatically adding Valen Repo to your /etc/pacman.conf"
