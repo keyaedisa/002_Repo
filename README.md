@@ -16,6 +16,13 @@ Server = https://keyaedisa.github.io/$repo/$arch
 -->
 
 <!--
+# Valen Dev Repository
+[valenDev_repo]
+SigLevel = PackageRequired
+Server = https://keyaedisa.github.io/$repo/$arch
+-->
+
+<!--
 # Valen Repository
 [valen_repo]
 SigLevel = Never
