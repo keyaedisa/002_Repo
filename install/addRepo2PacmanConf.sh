@@ -1,7 +1,7 @@
 #!/bin/bash
 
 
-if [[ $1 = 'dev' ]]; then
+if [[ $1 == "dev" ]]; then
 	echo "Automatically adding Valen Repo to your /etc/pacman.conf"
 	wget https://raw.githubusercontent.com/keyaedisa/valen_repo/master/README.md
 	sed -n '19,22p' README.md >> /etc/pacman.conf
