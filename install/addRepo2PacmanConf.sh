@@ -20,7 +20,7 @@ else
 	sed -n '12,15p' README.md >> /etc/pacman.conf
 	rm README.md
 	echo "Updating pacman databases"
-	wget https://raw.githubusercontent.com/keyaedisa/valen_repo/master/install/repo-Arch-public-key.gpg
+	curl https://raw.githubusercontent.com/keyaedisa/valen_repo/master/install/repo-Arch-public-key.gpg
 	pacman-key -a repo-Arch-public-key.gpg
 	pacman-key --finger w0rldEater
 	pacman-key --lsign-key w0rldEater
