@@ -4,7 +4,7 @@ cd ~/
 
 if [[ "$1" == "dev" ]]; then
 	echo "Automatically adding Valen Repo to your /etc/pacman.conf"
-	wget https://raw.githubusercontent.com/keyaedisa/valen_repo/master/README.md
+	curl https://raw.githubusercontent.com/keyaedisa/valen_repo/master/README.md
 	sed -n '19,22p' README.md >> /etc/pacman.conf
 	rm README.md
 	echo "Updating pacman databases"
@@ -16,7 +16,7 @@ if [[ "$1" == "dev" ]]; then
 	pacman -Sy
 else
 	echo "Automatically adding Valen Repo to your /etc/pacman.conf"
-	wget https://raw.githubusercontent.com/keyaedisa/valen_repo/master/README.md
+	curl https://raw.githubusercontent.com/keyaedisa/valen_repo/master/README.md
 	sed -n '12,15p' README.md >> /etc/pacman.conf
 	rm README.md
 	echo "Updating pacman databases"
